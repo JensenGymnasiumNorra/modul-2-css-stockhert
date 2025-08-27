@@ -8,7 +8,7 @@ Skola
 En hemsida som lär ut programmering (eller något annat ämne)
 Nyheter
 Välgörenhetsorganisation
-Band / artist
+Band / artist [x]
 Datorspel
 Träning
 Eget exempel
