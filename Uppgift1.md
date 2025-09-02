@@ -9,11 +9,12 @@
 5. I <footer> ska du skriva kontaktuppgifter till hemsidan. Dessa kan såklart vara fejkade.[x]
 
 # Följande styling ska finnas med external css
-1. Ändra på hur <h1> ser ut
-2. Se till att <header> har en bakgrund och eventuellt centrering av texten
-3. Styla <footer>
+1. Ändra på hur <h1> ser ut [x]
+2. Se till att <header> har en bakgrund och eventuellt centrering av texten [x]
+3. Styla <footer> [x]
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
 
 Started on index.html. Need to add href's to other pages later. Index = landing page
+I did some inverting shit with the header and animating with chatgpt the goat. 

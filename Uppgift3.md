@@ -9,14 +9,16 @@ Använd det du har lärt dig om text och typsnitt för att anpassa din sida.
 
 # Följande styling ska finnas med external CSS
 Några av nedanstående:
-- font-family
-- font-size
+- font-family [x]
+- font-size [x]
 - font-style
-- font-weight
+- font-weight [x]
 - line-height
-- font
-- ttext-decoration
-- text-shadow
+- font [x]
+- ttext-decoration [x]
+- text-shadow [x]
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+All the attributes i found online. Pretty cool.

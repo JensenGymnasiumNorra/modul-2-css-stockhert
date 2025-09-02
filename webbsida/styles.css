@@ -1,0 +1,70 @@
+/*Elements*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 16px;
+}
+
+p{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+/* Classes */
+.floating-header{
+    padding-top: 10px;
+    padding-left: 5%;
+    mix-blend-mode: difference;
+    position: fixed;
+    color: white;
+    text-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 40px magenta;
+    animation: trippy-colors 8s linear infinite;
+}
+
+.special-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div_a{
+    font-weight: bold;
+}
+
+.div_b{
+    font-weight: lighter;
+}
+/* Misc*/
+@keyframes trippy-colors {
+    0%   { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(360deg); }
+}
+
