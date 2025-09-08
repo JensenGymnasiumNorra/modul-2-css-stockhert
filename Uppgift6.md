@@ -10,7 +10,7 @@ Använd dig av det du har lärt dig om position för att anpassa din sida.
 Någon av nedanstående:
 - relative  
 - absolute  
-- fixed  
+- fixed  [x]
 - sticky
 
 # Anteckningar

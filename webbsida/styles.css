@@ -25,10 +25,22 @@ a{
 }
 
 ul {
-    display: inline-block;
+    display: block;
     text-align: center;
     margin: 0 auto;
     padding-left: 0;
+    list-style-type: none;
+}
+li{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 30px;
 }
 
 footer{
@@ -48,6 +60,20 @@ footer{
     color: white;
     text-shadow: 0 0 10px #fff, 0 0 20px #0ff, 0 0 40px magenta;
     animation: trippy-colors 8s linear infinite;
+    
+    float: left;
+}
+
+.container{
+    float: left;
+    padding-left: 15%;
+    padding-top: 50px;
+}
+.image1{
+    float: right;
+    width: 30%;
+    padding: 50px;
+    height: auto;
 }
 
 .special-heading{
@@ -64,7 +90,7 @@ footer{
 }
 /* Misc*/
 @keyframes trippy-colors {
-    0%   { filter: hue-rotate(0deg); }
+    0%   { filter: hue-rotate(0deg);}
     100% { filter: hue-rotate(360deg); }
 }
 
