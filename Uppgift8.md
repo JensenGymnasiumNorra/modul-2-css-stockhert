@@ -10,3 +10,6 @@ Använd dig av det du har lärt dig om Grid för att anpassa din sida.
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+added the "other favorites" album wall. Honestly wish i did grid for the other one too but too late now
+:'(

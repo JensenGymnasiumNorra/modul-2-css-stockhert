@@ -10,19 +10,19 @@
 <body>
 
     <header class="floating-header">
-        <a href="index.html"><h1>harry.gov.uk</h1></a>
+        <a href="index.html"><h1>harry.org</h1></a>
     </header>
     
     <nav>
         <ul>
             <!--Reference future pages HERE!-->
-            <li><a href="#section1">About me</a></li>
-            <li><a href="#section2">Blog</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="#albums">Album Library</a></li>
         </ul>
     </nav>
     
     <!--MAIN CONTENT-->
-    <main>
+    <main class="flexbox">
         <div class="container">
             <h1 class="special-heading">Welcome to My Page</h1>
 
@@ -40,22 +40,73 @@
                 <h2>Things I like</h2>
                 <p>I like music, video games and reading.</p>
             </div>
-            <hr>
-            
+
         </div>
         
         <div class="image1">
             <img src="signalis.jpg" alt="goty">
+            <p>my favorite game</p>
         </div>
 
+        <!--This uses a flex!-->
+        <div style="display: flex; justify-content: center; flex-direction: column;" id="albums">
+
+            <h2>My Favorite Albums</h2>
+            <div class="flexbox">
+                <div><a href="https://open.spotify.com/album/0bQglEvsHphrS19FGODEGo?si=wLc-aoGYQR-h0I27vdR49g"><img src="src/SmashingPumpkins-SiameseDream.jpg" alt="Siamese Dream" class="imageAlbum"></a></div>
+                <div><a href="https://wavvesband.bandcamp.com/album/wavvves"><img src="src/Wavvvescover.jpg" alt="Wavvves" class="imageAlbum"></a></div>
+                <div><a href="https://whirrband.bandcamp.com/album/feels-like-you"><img src="src/a3612730707_16.jpg" alt="Feels like you" class="imageAlbum"></a></div>
+                <div><a href="https://svpacyberia.bandcamp.com/album/in-your-web"><img src="src/a2742404674_16.jpg" alt="In your web" class="imageAlbum"></a></div>
+            </div>
+            <p>(feel free to click)</p>
+
+        </div>
+
+
     </main>
-    
+
+    <h2>other favorites</h2>
+
+    <!--This uses a grid!-->
+    <div class="albumgrid" style="padding-bottom: 200px">
+        <div class="imageAlbum2">
+            <a href="https://svpacyberia.bandcamp.com/album/cure">
+                <img src="src/cure.jpg">
+            </a>
+        </div>
+        <div class="imageAlbum2">
+            <a href="https://matttalbott.bandcamp.com/album/in-streams">
+                <img src="src/inStreams.jpg">
+            </a>
+        </div>
+        <div class="imageAlbum2">
+            <a href="https://intertelecom.bandcamp.com/album/--37">
+                <img src="src/telecom.jpg">
+            </a>
+        </div>
+        <div class="imageAlbum2">
+            <a href="https://open.spotify.com/album/78LGjDUuu5dQZRfbrFQ2Ys?si=GkToLdfVQyCD7OZQmclKXw">
+                <img src="src/p4.jpg">
+            </a>
+        </div>
+        <div class="imageAlbum2">
+            <a href="https://signalis-ost.bandcamp.com/album/signalis-original-soundtrack">
+                <img src="src/signalis.jpg">
+            </a>
+        </div>
+        <div class="imageAlbum2">
+            <a href="https://addiewarncke.bandcamp.com/album/computerwife-2">
+                <img src="src/cw.jpg">
+            </a>
+        </div>
+    </div>
+
     <footer class="footer">
         <p>
             &copy; Harry Martin
         </p>
         <p>
-            Contact: +(46)123-456-789, <span><a href="mailto:harrytoshi@gmail.com">Email</a></span>
+            Contact: +(46)123-456-789, <span><a href="mailto:email@gmail.com">Email</a></span>
         </p>
     </footer>
 </body>

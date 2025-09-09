@@ -1,4 +1,8 @@
 /*Elements*/
+
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(238, 238, 238);
@@ -87,6 +91,37 @@ footer{
 
 .div_b{
     font-weight: lighter;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.imageAlbum{
+    width: 300px;
+    height: 300px;
+}
+
+.albumgrid{
+    display: grid;
+    grid-template-columns: repeat(6, 150px); /* Creates 4 columns of 150px each */
+    gap: 10px; /* Adds spacing between grid items */
+    justify-content: center; /* Centers the grid */
+}
+.imageAlbum2 {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+.imageAlbum2 img {
+    width: 150px;
+    height: 150px;
 }
 /* Misc*/
 @keyframes trippy-colors {

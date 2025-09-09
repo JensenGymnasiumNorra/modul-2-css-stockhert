@@ -15,3 +15,5 @@ Någon av nedanstående:
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+Although not visible (as of yet) the logo in the top left is fixed in position and should behave as such

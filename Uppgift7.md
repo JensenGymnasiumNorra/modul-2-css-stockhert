@@ -10,3 +10,5 @@ Använd dig av det du har lärt dig om flexbox för att anpassa din sida.
 
 # Anteckningar
 Anteckna kort här vad du har gjort för förändringar på sidan i denna uppgift.
+
+added the flexbox fav albums at the bottom
