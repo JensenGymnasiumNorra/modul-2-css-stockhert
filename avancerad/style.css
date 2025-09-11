@@ -11,3 +11,12 @@
 .boxShadow{
     box-shadow: 6px 6px 6px white;
 }
+
+.hover:hover{
+    color: blue;
+}
+
+.gradient{
+    background: linear-gradient(to right, rgba(123, 15, 182, 0.73), yellow);
+    text-align: center;
+}
