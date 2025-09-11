@@ -1,0 +1,13 @@
+﻿html{
+    background-color: black;
+    color: white;
+}
+.text{
+    color: cyan;
+}
+.textShadow{
+    text-shadow: 2px 2px 2px white;
+}
+.boxShadow{
+    box-shadow: 6px 6px 6px white;
+}
